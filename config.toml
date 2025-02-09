@@ -1,4 +1,50 @@
-baseURL = 'http://hugo-quickstart-template.netlify.com'
-languageCode = 'pl-pl'
-title = 'Minimalist Initiative'
-theme = 'smigle'
+baseURL = "https://smigle-hugo-theme.netlify.app/"
+languageCode = "pl-pl"
+theme = "smigle"
+themesDir = "themes"
+title = "Minimalist Initiative"
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 3
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 4
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 5
+
+[[menu.main]]
+identifier = "rss"
+name = "RSS"
+url = "/index.xml"
+weight = 6
+
+[params]
+abbrDateFmt = "Jan 2"
+author = "Christophe"
+brandIconFile = "images/brandIcon.svg"
+dateFmt = "2006-01-02"
+subtitle = "Minimalizm na co dzień"
+
+
