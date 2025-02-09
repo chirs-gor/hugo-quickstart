@@ -41,6 +41,7 @@ url = "/index.xml"
 weight = 6
 
 [params]
+customCSS = ["static/css/custom.css"]
 abbrDateFmt = "Jan 2"
 author = "Christophe"
 brandIconFile = "images/brandIcon.svg"
